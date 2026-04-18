@@ -1,0 +1,24 @@
+Entidades:
+
+1 Proprietario
+2 Cliente
+3 Aluguel
+4 Horario
+
+=================================================================
+Requisito funcional:
+
+RF - 01 - marcar horario
+RF - 02 - relatório de quem ja pagou
+RF - 03 - cadastrar clientes: nome e telefone
+RF - 04 - cadastrar horarios disponiveis
+RF - 05 - Registrar Alugue Cliente
+RF - 06 - consultar todos alugueis realizados em determinado dia
+
+=================================================================
+Regras de negócio:
+
+1- aluguel por hora
+2- calcula valor automatico caso o cliente alugue no mesmo dia
+3- Proibir reserva no mesmo horario caso seja na mesma data
+4- nao e possivel cadastrar horarios com valor negativo/ cliente nome vazio
